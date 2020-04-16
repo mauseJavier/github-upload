@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTURA</title>
+    <style>
+      
+    *{
+      font-family:  Helvetica, sans-serif;
+    }
+       img{
+        width: 100px;
+        
+      }
+      table{
+        
+        width: 100%;
+      }
+     
+      
+      #a{
+        width: 20%;
+        text-align: left;
+      }
+      #d{
+        width: 20%;
+        text-align: left;
+        font-size: 8pt;
+      }
+      #b{
+        vertical-align: top;
+        text-align: center;
+        width: 20%;
+      }
+      #c{
+          width: 40%;
+          text-align: center;
+          vertical-align: top;
+          font-size: 8pt;
+        }
+        #e{
+              padding: 5px;
+        }
+        .borde{
+          border: 1px solid black;
+        }
+        .fondo{
+          background-color: cornflowerblue;
+        }
+        #articulos{
+          text-align: right;
+        }
+        .base{
+          border-bottom: 1px solid black;
+        }
+        #total{
+          text-align: right;
+        }
+    
+      
+    </style>
+ 
+</head>
+
+<body>
+
+   <div class="todo">
+
+      
+   <table>
+     <thead>
+       <tr>
+         <th id="a"><img src="imagen_reporte.png" alt="" ></th>
+         <th id="d"><li>Empresa: nombre de empresa</li>
+             <li>Direccion: te amo hermosa!!!</li></th>
+         <th id="b" class="a33">Factura <br><h2 id="e">C</h2></th>
+         <th id="c"><li>SADFSADF</li>
+                    <li>SAFDASDF</li>
+                    <li>ASDFASDF</li>
+                    <li>ASDFASDF</li></th>
+       </tr>
+       <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+     </thead>
+             
+     <tbody>
+
+     </tbody>
+
+   </table>
+   <hr>
+   <!--AK ESTA LA SEGUNDA TABLA-->
+
+   <table>
+     <tbody>
+       <tr>
+         <td height="100px" class="borde fondo">ffff</td>
+         <td class="borde fondo">ffff</td>
+       </tr>
+     </tbody>
+   </table>
+   <hr>
+   <h3>Detalle de lo Facturado:</h3>
+
+   <table id="articulos">
+     <thead>
+       <tr>
+         <th class="base">Detalle</th>
+         <th class="base">Cantidad</th>
+         <th class="base">Precio U.</th>
+         <th class="base">Subtotal</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>kjhkj</td>
+         <td>kjhkj</td>
+         <td>kjhkj</td>
+         <td>kjhkj</td>
+       </tr>
+       <tr>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+      </tr>
+      <tr>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+        <td>kjhkj</td>
+      </tr>
+     </tbody>
+   </table>
+   <!--ak termina la tabla-->
+   
+   <h3 id="total">Total: 20000</h3>
+
+  </div>
+
+</body>
+</html>
